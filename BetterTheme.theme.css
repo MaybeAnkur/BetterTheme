@@ -58,16 +58,15 @@
     /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
 
-
 /*-----------CUSTOM COLORS-----------*/
 /*-------------DARK MODE-------------*/
 /*---------------BASIC---------------*/
 .theme-dark {
-  --accent-color: #7db2cc;
-  --background-1: #121212;
-  --background-2: #121212;
-  --background-accent: #121212;
-  --border-color: #bde6fb;
+  --accent-color: #11a0dd;
+  --background-1:#17202A;
+  --background-2: #17202A;
+  --background-accent: #34495E;
+  --border-color: #11a0dd;
 }
 /*-------------ADVANCED--------------*/
 .theme-dark {
@@ -88,10 +87,10 @@
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
   /* text */
-  --text-normal: var(--accent-color);
+  --text-normal:#ECEFF1;
   --text-positive: var(--text-normal);
-  --text-muted: #6d8692;
-  --text-link: #edf8fe;
+  --text-muted:#9E9E9E;
+  --text-link: #ee7700;
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
   --interactive-normal: var(--text-normal);
@@ -113,12 +112,11 @@
   --button-background-active: #4d5f68;
   --button-accent: var(--accent-color);
   --button-accent-hover: #d2f3ff;
-  --button-accent-active: #8dd4f8;
+  --button-accent-active: #d81515;
   --button-destructive: #fb7c7c;
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
 }
-
 /*-------------LIGHT MODE------------*/
 /*---------------BASIC---------------*/
 .theme-light {
@@ -181,8 +179,7 @@
 
 /*-------AUTO HIDE MEMBERS LIST------*/
 .membersWrap-2h-GB4 {
-    transition: all 0.4s ease-in-out;
-    transition-duration: .4s;
+    transition: all .4s ease-in-out;
     justify-content: unset;
     min-width: unset;
     width: 50px;
