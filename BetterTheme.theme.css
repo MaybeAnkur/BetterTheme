@@ -1,6 +1,6 @@
 /**
  * @name BetterTheme
- * @version 1
+ * @version 1.0
  * @author MayebeAnkur
  * @source https://github.com/MaybeAnkur/BetterTheme
 */
@@ -47,7 +47,7 @@
     /* Colour for dnd status */
     --rs-offline-color: #636b75;
     /* Colour for offline status */
-    --rs-streaming-color: #643da7;
+    --rs-streaming-color: #b4329f;
     /* Colour for streaming status */
     --rs-invisible-color: #747f8d;
     /* Colour for invisible status - Note: this will only show for your own invisibility */
@@ -67,7 +67,7 @@
   --background-1: #121212;
   --background-2: #121212;
   --background-accent: #121212;
-  --border-color: #121212;
+  --border-color: #bde6fb;
 }
 /*-------------ADVANCED--------------*/
 .theme-dark {
