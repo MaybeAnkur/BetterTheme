@@ -4,7 +4,7 @@
 I just copied features of other themes which i liked and merged them with Zelk theme.
 
 ***
-### >>> [PREVIEW](https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/MaybeAnkur/BetterTheme@latest/BetterTheme.theme.css) <<<
+### >>> [PREVIEW](https://gibbu.github.io/ThemePreview/?file=https://cdn.jsdelivr.net/gh/MaybeAnkur/BetterTheme/BetterTheme.theme.css) <<<
 ***
 
 **Inspired from**
