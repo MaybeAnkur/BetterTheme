@@ -1,7 +1,7 @@
 # BetterTheme
 ## BetterTheme is a discord theme inspired by various themes available out there.
 
-I just copied features of other themes which i liked and merged them into one.
+I just copied features of other themes which i liked and merged them with Zelk theme.
 
 **INSPIRED FROM**
 
