@@ -12,7 +12,7 @@
 /*-------------VARIABLES-------------*/
 :root {
     /* set to 'none' to hide */
-    --scrollbars: none;
+    --scrollbars: unset;
     /* profile notes */
     --notes: unset;
     /* direct message box */
@@ -62,9 +62,9 @@
 /*-------------DARK MODE-------------*/
 /*---------------BASIC---------------*/
 .theme-dark {
-  --accent-color: #11a0dd;
-  --background-1:#17202A;
-  --background-2: #17202A;
+  --accent-color: #00a3b9;
+  --background-1:#141b24;
+  --background-2: #141b24;
   --background-accent: #34495E;
   --border-color: #11a0dd;
 }
@@ -87,9 +87,9 @@
   --background-modifier-accent: transparent;
   --background-message-hover: transparent;
   /* text */
-  --text-normal:#ECEFF1;
+  --text-normal:#f6f6f6;
   --text-positive: var(--text-normal);
-  --text-muted:#9E9E9E;
+  --text-muted:#90a6b6;
   --text-link: #2286d8;
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
@@ -117,6 +117,7 @@
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
 }
+
 /*-------------LIGHT MODE------------*/
 /*---------------BASIC---------------*/
 .theme-light {
@@ -175,7 +176,6 @@
   --button-destructive-hover: #ff929b;
   --button-destructive-active: #fa4a4a;
 }
-
 
 /*-------AUTO HIDE MEMBERS LIST------*/
 .membersWrap-2h-GB4 {
