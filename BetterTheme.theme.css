@@ -5,15 +5,12 @@
  * @source https://github.com/MaybeAnkur/BetterTheme
 */
 
-
 /*--------------IMPORTS------------- */
-
 @import url(https://raw.githack.com/schnensch0/zelk/main/main.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
 
 /*-------------VARIABLES-------------*/
-
 :root {
     /* set to 'none' to hide */
     --scrollbars: none;
@@ -63,140 +60,127 @@
 }
 
 
+/*-----------CUSTOM COLORS-----------*/
 /*-------------DARK MODE-------------*/
-
-
 /*---------------BASIC---------------*/
-
 .theme-dark {
-    --accent-color: rgb(0, 177, 177);
-    --background-1: #000000;
-    --background-2: #000000;
-    --background-accent: #1e2529;
-    --border-color: #273034;
+  --accent-color: #7db2cc;
+  --background-1: #000000;
+  --background-2: #141414;
+  --background-accent: #121212;
+  --border-color: #121212;
 }
-
-
 /*-------------ADVANCED--------------*/
-
 .theme-dark {
-    /* background */
-    --background-primary: var(--background-1);
-    --background-primary-alt: var(--background-1);
-    --background-secondary: var(--background-1);
-    --background-secondary-alt: var(--background-1);
-    --background-tertiary: var(--background-2);
-    --background-accent-gradient: var(--background-2);
-    --background-floating: var(--background-1);
-    --background-mentioned: #bde6fb10;
-    --background-mentioned-hover: #bde6fb15;
-    /* modifiers */
-    --background-modifier-hover: #262e33;
-    --background-modifier-active: #495a63;
-    --background-modifier-selected: var(--accent-color);
-    --background-modifier-accent: transparent;
-    --background-message-hover: transparent;
-    /* text */
-    --text-normal: var(--accent-color);
-    --text-positive: var(--text-normal);
-    --text-muted: #6d8692;
-    --text-link: #edf8fe;
-    --interactive-selected: var(--background-primary);
-    --interactive-active: var(--text-normal);
-    --interactive-normal: var(--text-normal);
-    --interactive-muted: var(--button-background-active);
-    --channels-default: var(--text-muted);
-    --header-primary: var(--text-normal);
-    --header-secondary: var(--text-muted);
-    /* more */
-    --settings-icon-color: #8eacbc;
-    --control-brand-foreground: var(--accent-color);
-    --info-warning-foreground: var(--accent-color);
-    --tab-selected: #354249;
-    --switch: #3d4c53;
-    --activity-card-background: var(--background-1);
-    --brand-experiment: var(--accent-color) !important;
-    /* buttons */
-    --button-background: #2a3439;
-    --button-background-hover: #354249;
-    --button-background-active: #4d5f68;
-    --button-accent: var(--accent-color);
-    --button-accent-hover: #d2f3ff;
-    --button-accent-active: #8dd4f8;
-    --button-destructive: #fb7c7c;
-    --button-destructive-hover: #ff929b;
-    --button-destructive-active: #fa4a4a;
+  /* background */
+  --background-primary: var(--background-1);
+  --background-primary-alt: var(--background-1);
+  --background-secondary: var(--background-1);
+  --background-secondary-alt: var(--background-1);
+  --background-tertiary: var(--background-2);
+  --background-accent-gradient: var(--background-2);
+  --background-floating: var(--background-1);
+  --background-mentioned: #bde6fb10;
+  --background-mentioned-hover: #bde6fb15;
+  /* modifiers */
+  --background-modifier-hover: #262e33;
+  --background-modifier-active: #495a63;
+  --background-modifier-selected: var(--accent-color);
+  --background-modifier-accent: transparent;
+  --background-message-hover: transparent;
+  /* text */
+  --text-normal: var(--accent-color);
+  --text-positive: var(--text-normal);
+  --text-muted: #6d8692;
+  --text-link: #edf8fe;
+  --interactive-selected: var(--background-primary);
+  --interactive-active: var(--text-normal);
+  --interactive-normal: var(--text-normal);
+  --interactive-muted: var(--button-background-active);
+  --channels-default: var(--text-muted);
+  --header-primary: var(--text-normal);
+  --header-secondary: var(--text-muted);
+  /* more */
+  --settings-icon-color: #8eacbc;
+  --control-brand-foreground: var(--accent-color);
+  --info-warning-foreground: var(--accent-color);
+  --tab-selected: #354249;
+  --switch: #3d4c53;
+  --activity-card-background: var(--background-1);
+  --brand-experiment: var(--accent-color) !important;
+  /* buttons */
+  --button-background: #2a3439;
+  --button-background-hover: #354249;
+  --button-background-active: #4d5f68;
+  --button-accent: var(--accent-color);
+  --button-accent-hover: #d2f3ff;
+  --button-accent-active: #8dd4f8;
+  --button-destructive: #fb7c7c;
+  --button-destructive-hover: #ff929b;
+  --button-destructive-active: #fa4a4a;
 }
-
 
 /*-------------LIGHT MODE------------*/
-
-
 /*---------------BASIC---------------*/
-
 .theme-light {
-    --accent-color: #22c5fd;
-    --background-1: #ffffff;
-    --background-2: #f5f7fa;
-    --background-accent: var(--background-2);
-    --border-color: transparent;
+  --accent-color: #22c5fd;
+  --background-1: #ffffff;
+  --background-2: #f5f7fa;
+  --background-accent: var(--background-2);
+  --border-color: transparent;
 }
-
-
 /*-------------ADVANCED--------------*/
-
 .theme-light {
-    /* background */
-    --background-primary: var(--background-1);
-    --background-primary-alt: var(--background-1);
-    --background-secondary: var(--background-1);
-    --background-secondary-alt: var(--background-1);
-    --background-tertiary: var(--background-2);
-    --background-accent-gradient: var(--background-2);
-    --background-floating: var(--background-1);
-    --background-mentioned: #22c5fd10;
-    --background-mentioned-hover: #22c5fd15;
-    /* modifiers */
-    --background-modifier-hover: transparent;
-    --background-modifier-active: #b7c2cc;
-    --background-modifier-selected: var(--accent-color);
-    --background-modifier-accent: transparent;
-    --background-message-hover: transparent;
-    /* text */
-    --text-normal: #123354;
-    --text-positive: var(--text-normal);
-    --text-muted: #8495a7;
-    --text-link: #15a6f0;
-    --interactive-selected: var(--background-primary);
-    --interactive-active: var(--text-normal);
-    --interactive-normal: var(--text-normal);
-    --interactive-muted: var(--text-muted);
-    --channels-default: var(--text-normal);
-    --header-primary: var(--text-normal);
-    --header-secondary: var(--text-muted);
-    /* more */
-    --settings-icon-color: #566e86;
-    --control-brand-foreground: var(--accent-color);
-    --info-warning-foreground: var(--accent-color);
-    --tab-selected: var(--background-1);
-    --switch: #c8d0d9;
-    --activity-card-background: var(--background-1);
-    --brand-experiment: var(--accent-color) !important;
-    /* buttons */
-    --button-background: var(--background-1);
-    --button-background-hover: #d3dae1;
-    --button-background-active: #b1bcc8;
-    --button-accent: var(--accent-color);
-    --button-accent-hover: #22c5fd;
-    --button-accent-active: #0d87c5;
-    --button-destructive: #fb7c7c;
-    --button-destructive-hover: #ff929b;
-    --button-destructive-active: #fa4a4a;
+  /* background */
+  --background-primary: var(--background-1);
+  --background-primary-alt: var(--background-1);
+  --background-secondary: var(--background-1);
+  --background-secondary-alt: var(--background-1);
+  --background-tertiary: var(--background-2);
+  --background-accent-gradient: var(--background-2);
+  --background-floating: var(--background-1);
+  --background-mentioned: #22c5fd10;
+  --background-mentioned-hover: #22c5fd15;
+  /* modifiers */
+  --background-modifier-hover: transparent;
+  --background-modifier-active: #b7c2cc;
+  --background-modifier-selected: var(--accent-color);
+  --background-modifier-accent: transparent;
+  --background-message-hover: transparent;
+  /* text */
+  --text-normal: #123354;
+  --text-positive: var(--text-normal);
+  --text-muted: #8495a7;
+  --text-link: #15a6f0;
+  --interactive-selected: var(--background-primary);
+  --interactive-active: var(--text-normal);
+  --interactive-normal: var(--text-normal);
+  --interactive-muted: var(--text-muted);
+  --channels-default: var(--text-normal);
+  --header-primary: var(--text-normal);
+  --header-secondary: var(--text-muted);
+  /* more */
+  --settings-icon-color: #566e86;
+  --control-brand-foreground: var(--accent-color);
+  --info-warning-foreground: var(--accent-color);
+  --tab-selected: var(--background-1);
+  --switch: #c8d0d9;
+  --activity-card-background: var(--background-1);
+  --brand-experiment: var(--accent-color) !important;
+  /* buttons */
+  --button-background: var(--background-1);
+  --button-background-hover: #d3dae1;
+  --button-background-active: #b1bcc8;
+  --button-accent: var(--accent-color);
+  --button-accent-hover: #22c5fd;
+  --button-accent-active: #0d87c5;
+  --button-destructive: #fb7c7c;
+  --button-destructive-hover: #ff929b;
+  --button-destructive-active: #fa4a4a;
 }
 
 
 /*-------AUTO HIDE MEMBERS LIST------*/
-
 .membersWrap-2h-GB4 {
     transition: all 0.4s ease-in-out;
     transition-duration: .4s;
@@ -204,15 +188,12 @@
     min-width: unset;
     width: 50px;
 }
-
-    .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
-        height: 40px;
-    }
-
-    .membersWrap-2h-GB4:hover {
-        width: 240px;
-    }
-
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+    height: 40px;
+}
+.membersWrap-2h-GB4:hover {
+     width: 240px;
+}
 .membersGroup-v9BXpm {
     height: 0px;
     transition-duration: .4s;
@@ -221,11 +202,9 @@
     justify-content: center;
     padding: 5px;
 }
-
 .member-3-YXUe {
     margin-left: 0;
 }
-
 .content-yTz4x3 {
     margin-right: 0;
 }
