@@ -20,8 +20,8 @@
     /* set to 'Inter', sans-serif !important to use Inter font*/
     --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-    --border-radius-1: 15px;
-    --border-radius-2: 5px;
+    --border-radius-1: 10px;
+    --border-radius-2: 10px;
     --outdated: none !important;
 
     --rs-small-spacing: 1px;
@@ -90,7 +90,7 @@
   --text-normal:#ECEFF1;
   --text-positive: var(--text-normal);
   --text-muted:#9E9E9E;
-  --text-link: #ee7700;
+  --text-link: #2286d8;
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
   --interactive-normal: var(--text-normal);
