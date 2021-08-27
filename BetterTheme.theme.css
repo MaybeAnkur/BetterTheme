@@ -1,6 +1,7 @@
 /**
  * @name BetterTheme
  * @version 1.0
+ * @description Maybe the best theme?
  * @author MayebeAnkur
  * @source https://github.com/MaybeAnkur/BetterTheme
 */
@@ -62,11 +63,11 @@
 /*-------------DARK MODE-------------*/
 /*---------------BASIC---------------*/
 .theme-dark {
-  --accent-color: #00a3b9;
-  --background-1:#141b24;
-  --background-2: #141b24;
-  --background-accent: #34495E;
-  --border-color: #11a0dd;
+  --accent-color: #bde6fb;
+  --background-1: #171d20;
+  --background-2: #171d20;
+  --background-accent: #1e2529;
+  --border-color: #273034;
 }
 /*-------------ADVANCED--------------*/
 .theme-dark {
@@ -89,7 +90,7 @@
   /* text */
   --text-normal:#f6f6f6;
   --text-positive: var(--text-normal);
-  --text-muted:#90a6b6;
+  --text-muted:#637a85;
   --text-link: #2286d8;
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
