@@ -39,7 +39,7 @@
     /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
     
     /* Update message */
-    --update-theme: none !important;
+    --update-theme: block !important;
 }
 
 /* Collapse members list */
