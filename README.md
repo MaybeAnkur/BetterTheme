@@ -6,7 +6,7 @@ I just merged features of other themes which i liked with Zelk theme.
 Will keep adding more features in the future. 
 
 ***
-### >>> [PREVIEW](https://gibbu.github.io/ThemePreview/?file=https://gitcdn.link/repo/MaybeAnkur/BetterTheme/main/BetterTheme.theme.css) <<<
+### >>> [PREVIEW](https://rawcdn.githack.com/MaybeAnkur/BetterTheme/f697d8af78a61d2d808352c12d2038aad8263af5/BetterTheme.theme.css?min=1) <<<
 ***
 
 **Inspired from**
