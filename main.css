@@ -39,7 +39,7 @@
     /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
     
     /* Update message */
-    --update: block;
+    --update-theme: block;
 }
 
 /* Collapse members list */
@@ -234,7 +234,7 @@ body:not(.powercord) .panels-j1Uci_::before {
   text-align: center;
   width: 100%;
   height: 10px;
-  display: var(--update);
+  display: var(--update-theme);
   background-color: var(--background-primary);
   padding: 10px 0 30px;
   border-top: 1px solid var(--border-color);
@@ -249,5 +249,5 @@ body:not(.powercord) .panels-j1Uci_::after {
   top: -74px;
   width: 100%;
   height: 0;
-  display: var(--update);
+  display: var(--update-theme);
 }
