@@ -16,3 +16,5 @@ Will keep adding more features in the future.
 [DarkNeon](https://github.com/CommandCrafterHD/DiscordDarkNeon)
 
 [RadialStatus](https://github.com/DiscordStyles/RadialStatus)
+
+[Comfy](https://github.com/NYRI4/Comfy)
