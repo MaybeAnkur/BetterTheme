@@ -229,7 +229,7 @@
 /* update message */
 body:not(.powercord) .panels-j1Uci_::before {
   content: "Please update to BetterDiscord v1.0";
-  font-weight: 600;
+  font-weight: 50;
   color: var(--text-normal);
   text-align: center;
   width: 100%;
@@ -240,10 +240,10 @@ body:not(.powercord) .panels-j1Uci_::before {
   border-top: 1px solid var(--border-color);
 }
 body:not(.powercord) .panels-j1Uci_::after {
-  content: "Download from https://github.com/MaybeAnkur/BetterTheme";
+  content: "github.com/MaybeAnkur/BetterTheme";
   white-space: pre;
   font-size: 12px;
-  color: var(--text-muted);
+  color: var(--accent-color);
   text-align: center;
   position: relative;
   top: -74px;
