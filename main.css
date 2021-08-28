@@ -39,7 +39,7 @@
     /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
     
     /* Update message */
-    --update-theme: block;
+    --update-theme: block !important;
     --outdated: none !important;
 }
 
@@ -241,7 +241,7 @@ body:not(.powercord) .panels-j1Uci_::before {
   border-top: 1px solid var(--border-color);
 }
 body:not(.powercord) .panels-j1Uci_::after {
-  content: "github.com/MaybeAnkur/BetterTheme";
+  content: "github.com/MayybeAnkur/BetterTheme";
   white-space: pre;
   font-size: 12px;
   color: var(--accent-color);
