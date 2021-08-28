@@ -40,7 +40,7 @@
     
     /* Update message */
     --update-theme: block;
-    --outdated: none !important
+    --outdated: none !important;
 }
 
 /* Collapse members list */
