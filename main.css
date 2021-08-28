@@ -1,246 +1,207 @@
 /* BetterTheme */
 
-@charset "UTF-8";
 @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
 
 /* Ring status */
-
 :root {
-	--rs-small-spacing: 1px;
-	/* Gap between avatar and status for members list/dms | MUST end in px */
-	--rs-medium-spacing: 3px;
-	/* Gap between avatar and status for User popout | MUST end in px */
-	--rs-large-spacing: 4px;
-	/* Gap between avatar and status for User profiles | MUST end in px */
-	--rs-small-width: 2px;
-	/* Thickness of status border for members list/dms | MUST end in px */
-	--rs-medium-width: 3px;
-	/* Thickness of status border for User popout | MUST end in px */
-	--rs-large-width: 4px;
-	/* Thickness of status border for User profile | MUST end in px */
-	--rs-avatar-shape: 50%;
-	/* 50% for round - 0% for square */
-	--rs-online-color: #43b581;
-	/* Colour for online status */
-	--rs-idle-color: #faa61a;
-	/* Colour for idle status */
-	--rs-dnd-color: #f04747;
-	/* Colour for dnd status */
-	--rs-offline-color: #636b75;
-	/* Colour for offline status */
-	--rs-streaming-color: #b4329f;
-	/* Colour for streaming status */
-	--rs-invisible-color: #747f8d;
-	/* Colour for invisible status - Note: this will only show for your own invisibility */
-	--rs-phone-color: var(--rs-online-color);
-	/* Colour of the ring and phone icon when a user is on their phone |  */
-	--rs-phone-visible: block;
-	/* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
-}
+    --rs-small-spacing: 1px;
+    /* Gap between avatar and status for members list/dms | MUST end in px */
+    --rs-medium-spacing: 3px;
+    /* Gap between avatar and status for User popout | MUST end in px */
+    --rs-large-spacing: 4px;
+    /* Gap between avatar and status for User profiles | MUST end in px */
+    --rs-small-width: 2px;
+    /* Thickness of status border for members list/dms | MUST end in px */
+    --rs-medium-width: 3px;
+    /* Thickness of status border for User popout | MUST end in px */
+    --rs-large-width: 4px;
+    /* Thickness of status border for User profile | MUST end in px */
+    --rs-avatar-shape: 50%;
+    /* 50% for round - 0% for square */
 
+    --rs-online-color: #43b581;
+    /* Colour for online status */
+    --rs-idle-color: #faa61a;
+    /* Colour for idle status */
+    --rs-dnd-color: #f04747;
+    /* Colour for dnd status */
+    --rs-offline-color: #636b75;
+    /* Colour for offline status */
+    --rs-streaming-color: #b4329f;
+    /* Colour for streaming status */
+    --rs-invisible-color: #747f8d;
+    /* Colour for invisible status - Note: this will only show for your own invisibility */
+
+    --rs-phone-color: var(--rs-online-color);
+    /* Colour of the ring and phone icon when a user is on their phone |  */
+    --rs-phone-visible: block;
+    /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
 
 /* Collapse members list */
-
 .membersWrap-2h-GB4 {
-	transition: all .4s ease-in-out;
-	justify-content: unset;
-	min-width: unset;
-	width: 50px;
+    transition: all .4s ease-in-out;
+    justify-content: unset;
+    min-width: unset;
+    width: 50px;
 }
-
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
-	height: 40px;
+    height: 40px;
 }
-
 .membersWrap-2h-GB4:hover {
-	width: 240px;
+    width: 240px;
 }
-
 .membersGroup-v9BXpm {
-	height: 0px;
-	transition-duration: .4s;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 5px;
+    height: 0px;
+    transition-duration: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
 }
-
 .member-3-YXUe {
-	margin-left: 0;
+    margin-left: 0;
 }
-
 .content-yTz4x3 {
-	margin-right: 0;
+    margin-right: 0;
 }
-
 
 /* Activity cards */
-
 :root .userPopout-xaxa6l {
-	box-shadow: 0 0 10px 0 #101320d2;
+  box-shadow: 0 0 10px 0 #101320d2;
 }
-
 :root .userPopout-xaxa6l .headerTop-3vNv-a {
-	padding: 54px 16px 16px 16px;
+  padding: 54px 16px 16px 16px;
 }
-
 :root .userPopout-xaxa6l .headerTop-3vNv-a .setIdentityLink-1t8Ahd {
-	display: none;
+  display: none;
 }
-
 :root .userPopout-xaxa6l .body-3HBlXn {
-	padding: 0 !important;
+  padding: 0 !important;
 }
-
-:root .userPopout-xaxa6l .body-3HBlXn .customStatus-oN4ZZY,
- :root .userPopout-xaxa6l .body-3HBlXn .aboutMeSection-1Fw5Ia {
-	padding: 0 16px 16px 16px;
-	margin: 0;
+:root .userPopout-xaxa6l .body-3HBlXn .customStatus-oN4ZZY, :root .userPopout-xaxa6l .body-3HBlXn .aboutMeSection-1Fw5Ia {
+  padding: 0 16px 16px 16px;
+  margin: 0;
 }
-
 :root .userPopout-xaxa6l .body-3HBlXn .divider-ewBQKj {
-	display: none;
+  display: none;
 }
-
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj {
-	padding: 16px 16px 0 16px;
+  padding: 16px 16px 0 16px;
 }
-
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu {
-	padding: 16px;
-	margin: 20px 0 16px 0;
-	z-index: 1;
+  padding: 16px;
+  margin: 20px 0 16px 0;
+  z-index: 1;
 }
-
-:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .headerText-1HLrL7,
- :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .activityName-1IaRLn,
-:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .content-3JfFJh,
- :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .details-38sfDr,
- :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .name-29ETJS,
-:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .nameNormal-2lqVQK,
- :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .nameWrap-3Z4G_9 {
-	color: rgb(0, 0, 0);
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .headerText-1HLrL7, :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .activityName-1IaRLn,
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .content-3JfFJh, :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .details-38sfDr, :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .name-29ETJS,
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .nameNormal-2lqVQK, :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .nameWrap-3Z4G_9 {
+  color: rgb(0, 0, 0);
 }
-
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .button-38aScr {
-	border: none;
-	background-color: #ffffff21;
-	box-shadow: 0 4px 15px #00000021;
-	color: #000000;
+  border: none;
+  background-color: #ffffff21;
+  box-shadow: 0 4px 15px #00000021;
+  color: #000000;
 }
-
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .headerTextNormal-2mGWX3::before {
-	content: "";
-	position: absolute;
-	height: 20px;
-	width: 268px;
-	top: -20px;
-	left: 0;
-	background: url(https://raw.githubusercontent.com/MaybeAnkur/BetterTheme/main/assets/wave_background.png);
-	background-size: 268px 20px;
-	animation: animate2 4s linear infinite;
-	animation-delay: 0s;
-	opacity: 1;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 268px;
+  top: -20px;
+  left: 0;
+  background: url(https://raw.githubusercontent.com/MaybeAnkur/BetterTheme/main/assets/wave_background.png);
+  background-size: 268px 20px;
+  animation: animate2 4s linear infinite;
+  animation-delay: 0s;
+  opacity: 1;
 }
-
 @keyframes animate2 {
-	0% {
-		background-position-x: 268px;
-	}
-	100% {
-		background-position-x: 0;
-	}
+  0% {
+    background-position-x: 268px;
+  }
+  100% {
+    background-position-x: 0;
+  }
 }
-
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu::before {
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	z-index: -2;
-	left: 0;
-	top: 0;
-	background: #839192;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  left: 0;
+  top: 0;
+  background: #839192;
 }
-
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu::after {
-	content: "";
-	position: absolute;
-	height: 20px;
-	width: 268px;
-	top: -20px;
-	left: 0;
-	background: url(https://raw.githubusercontent.com/MaybeAnkur/BetterTheme/main/assets/wave_default.png);
-	background-size: 268px 20px;
-	animation: animate 6s linear infinite;
-	animation-delay: 0s;
-	opacity: 1;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 268px;
+  top: -20px;
+  left: 0;
+  background: url(https://raw.githubusercontent.com/MaybeAnkur/BetterTheme/main/assets/wave_default.png);
+  background-size: 268px 20px;
+  animation: animate 6s linear infinite;
+  animation-delay: 0s;
+  opacity: 1;
 }
-
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .timeBarUserPopout-AWPFf2::before {
-	content: "";
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	left: 0;
-	top: 0;
-	background: #17A589;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  background: #17A589;
 }
-
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .activity-2INFPu .timeBarUserPopout-AWPFf2::after {
-	content: "";
-	position: absolute;
-	height: 20px;
-	width: 268px;
-	top: -20px;
-	left: 0;
-	z-index: 1;
-	background: url(https://raw.githubusercontent.com/MaybeAnkur/BetterTheme/main/assets/wave_spotify.png);
-	background-size: 268px 20px;
-	animation: animate 6s linear infinite;
-	animation-delay: 0s;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 268px;
+  top: -20px;
+  left: 0;
+  z-index: 1;
+  background: url(https://raw.githubusercontent.com/MaybeAnkur/BetterTheme/main/assets/wave_spotify.png);
+  background-size: 268px 20px;
+  animation: animate 6s linear infinite;
+  animation-delay: 0s;
 }
-
 @keyframes animate {
-	0% {
-		background-position-x: 0;
-	}
-	100% {
-		background-position-x: 268px;
-	}
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 268px;
+  }
 }
-
 :root .layerContainer-yqaFcK *::-webkit-scrollbar {
-	display: none;
+  display: none;
 }
-
-.activityUserPopout-2yItg2 .spotifyIcon-2J9kSv path,
-.activityProfile-2bJRaP .spotifyIcon-2J9kSv path {
-	fill: var(--text-color);
+.activityUserPopout-2yItg2 .spotifyIcon-2J9kSv path, .activityProfile-2bJRaP .spotifyIcon-2J9kSv path {
+    fill: var(--text-color);
 }
-
 
 /* Mac Titlebar */
-
 .withFrame-haYltI .winButton-iRh8-Z>svg {
 	display: none;
 }
-
 .typeWindows-1za-n7>div:hover::after {
 	transform: scale(1.1);
 }
-
 .withFrame-haYltI .winButton-iRh8-Z:hover {
 	background-color: var(--background-teritary);
 }
-
 .withFrame-haYltI .winButton-iRh8-Z {
 	pointer-events: none;
 	margin-left: -4px;
 	top: 0;
 }
-
 .withFrame-haYltI .winButton-iRh8-Z::after {
 	content: "";
 	padding: 7px;
@@ -248,17 +209,14 @@
 	pointer-events: fill;
 	transition-duration: 200ms;
 }
-
 .withFrame-haYltI .winButtonClose-1HsbF-::after {
 	background-color: #e92a2ade !important;
 	margin-top: 0px;
 }
-
 .withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(3)::after {
 	background-color: #f7bc1bde !important;
 	margin-top: 0px;
 }
-
 .withFrame-haYltI .winButtonMinMax-PBQ2gm:nth-child(4):after {
 	background-color: #12db33de !important;
 	margin-top: 0px;
