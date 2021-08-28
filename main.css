@@ -40,7 +40,6 @@
     
     /* Update message */
     --update-theme: block !important;
-    --outdated: none !important;
 }
 
 /* Collapse members list */
@@ -241,7 +240,7 @@ body:not(.powercord) .panels-j1Uci_::before {
   border-top: 1px solid var(--border-color);
 }
 body:not(.powercord) .panels-j1Uci_::after {
-  content: "github.com/MayybeAnkur/BetterTheme";
+  content: "github.com/MaybeAnkur/BetterTheme";
   white-space: pre;
   font-size: 12px;
   color: var(--accent-color);
