@@ -39,7 +39,8 @@
     /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
     
     /* Update message */
-    --update-theme: block !important;
+    --update-theme: none !important;
+    --outdated: block !important;
 }
 
 /* Collapse members list */
