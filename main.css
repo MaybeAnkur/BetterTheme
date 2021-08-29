@@ -252,10 +252,10 @@ body:not(.powercord) .panels-j1Uci_::after {
   display: var(--update-theme);
 }
 
-/* Hide help and square toolbar*/
-.toolbar-1t6TWx>:last-child>div, .toolbar-1t6TWx>:last-child {
-  display:none;
+/* Hide help*/
+.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Help"]{
+display: none;
 }
-.toolbar-1t6TWx>:first-child:not(.inviteToolbar-3F-l2g):not(.streamQualityIndicator-2Te7mW), .streamQualityIndicator-2Te7mW+.clickable-3rdHwn {
-  border-radius: 0 0px 0px 0;
+.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Inbox"]{
+  border-radius: 0 var(--border-radius-1) var(--border-radius-1) 0;
 }
