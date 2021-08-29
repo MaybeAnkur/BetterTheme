@@ -253,8 +253,8 @@ body:not(.powercord) .panels-j1Uci_::after {
 }
 
 /* Hide help and square toolbar*/
-.anchor-3Z-8Bb {
-    display: none;
+.toolbar-1t6TWx>:last-child>div, .toolbar-1t6TWx>:last-child {
+  display:none;
 }
 .toolbar-1t6TWx>:first-child:not(.inviteToolbar-3F-l2g):not(.streamQualityIndicator-2Te7mW), .streamQualityIndicator-2Te7mW+.clickable-3rdHwn {
   border-radius: 0 0px 0px 0;
