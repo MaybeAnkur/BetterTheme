@@ -226,7 +226,7 @@
 	margin-top: 0px;
 }
 
-/* update message */
+/* Update message */
 body:not(.powercord) .panels-j1Uci_::before {
   content: "Please update to BetterDiscord v1.0";
   font-weight: 50;
@@ -250,4 +250,12 @@ body:not(.powercord) .panels-j1Uci_::after {
   width: 100%;
   height: 0;
   display: var(--update-theme);
+}
+
+/* Hide help and square toolbar*/
+.anchor-3Z-8Bb {
+    display: none;
+}
+.toolbar-1t6TWx>:first-child:not(.inviteToolbar-3F-l2g):not(.streamQualityIndicator-2Te7mW), .streamQualityIndicator-2Te7mW+.clickable-3rdHwn {
+  border-radius: 0 0px 0px 0;
 }
