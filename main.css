@@ -259,3 +259,6 @@ display: none;
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Inbox"]{
   border-radius: 0 var(--border-radius-1) var(--border-radius-1) 0;
 }
+.iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Threads"]{
+background: transparent;
+}
