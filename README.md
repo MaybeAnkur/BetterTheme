@@ -18,5 +18,3 @@ Will keep adding more features in the future.
 [RadialStatus](https://github.com/DiscordStyles/RadialStatus)
 
 [Comfy](https://github.com/NYRI4/Comfy)
-
-[Emoji Replace](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace)
