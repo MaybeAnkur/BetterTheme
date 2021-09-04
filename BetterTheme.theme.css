@@ -55,7 +55,7 @@
   /* text */
   --text-normal:#f6f6f6;
   --text-positive: var(--text-normal);
-  --text-muted:#637a85;
+  --text-muted:#718b97;
   --text-link: #2286d8;
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
