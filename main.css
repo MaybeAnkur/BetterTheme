@@ -277,5 +277,6 @@ background: transparent;
 
 .scrollableContainer-2NUZem
 {
+  background-color: var(--background-accent);
   margin-bottom:-15px;
 }
