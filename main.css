@@ -2,6 +2,7 @@
 
 @import url(https://raw.githack.com/schnensch0/zelk/main/main.css);
 @import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
 
 /* Ring status */
 :root {
@@ -261,4 +262,20 @@ display: none;
 }
 .iconWrapper-2OrFZ1.clickable-3rdHwn[aria-label*="Threads"]{
 background: transparent;
+}
+
+/* Hiding discord logo */
+.wordmark-2iDDfm svg {
+  display: none;
+}
+
+/* Fixing message box borders */
+.scroller-2LSbBU
+{
+  margin-bottom: 15px;
+}
+
+.scrollableContainer-2NUZem
+{
+  margin-bottom:-15px;
 }
