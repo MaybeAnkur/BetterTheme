@@ -41,6 +41,9 @@
     
     /* Update message */
     --update-theme: none !important;
+	
+    /* Font */
+    --font-display: 'JetBrains Mono', monospace;
 }
 
 /* Collapse members list */
