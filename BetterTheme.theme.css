@@ -19,7 +19,7 @@
     --message: unset;
     /* set to 'Inter', sans-serif !important to use Inter font*/
     --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    --font-display: 'JetBrains Mono', monospace !important;
     --border-radius-1: 10px;
     --border-radius-2: 10px;
 }
