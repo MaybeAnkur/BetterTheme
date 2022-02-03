@@ -47,31 +47,27 @@
 }
 
 /* Collapse members list */
-.membersWrap-2h-GB4 {
-    transition: all .4s ease-in-out;
-    justify-content: unset;
-    min-width: unset;
-    width: 50px;
+.membersWrap-3NUR2t {
+  transition: all 0.4s ease-in-out;
+  justify-content: unset;
+  min-width: unset;
+  width: 50px;
 }
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
-    height: 40px;
+.membersGroup-2eiWxl {
+  height: 0px;
+  transition: all 0.4s ease-in-out;
 }
-.membersWrap-2h-GB4:hover {
-    width: 240px;
+.membersWrap-3NUR2t:hover .membersGroup-2eiWxl {
+  height: 40px;
 }
-.membersGroup-v9BXpm {
-    height: 0px;
-    transition-duration: .4s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
+.membersWrap-3NUR2t:hover {
+  width: 230px;
 }
-.member-3-YXUe {
-    margin-left: 0;
-}
-.content-yTz4x3 {
-    margin-right: 0;
+.membersGroup-2eiWxl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
 }
 
 /* Activity cards */
